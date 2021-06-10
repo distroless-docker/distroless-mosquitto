@@ -1,4 +1,4 @@
-VERSION=2.0.10
+VERSION=2.0.10-ssl
 DOCKERHUB=docker.io/distrolessdocker/distroless-mosquitto
 
 docker run --rm --privileged docker/binfmt:820fdd95a9972a5308930a2bdfb8573dd4447ad3
