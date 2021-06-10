@@ -1,7 +1,6 @@
 # Description
 
-This Grafana container utilizes the officially binaries from Grafana.
-The image is built upon docker scratch and builds libc6 from debian sources. 
+This is an attempt to build a "distroless" docker image containing an up-to-date mosquitto (currently v2.0.10) based on a docker scratch container. The Dockerfile itself is an "extended" version of the Dockerfile contained within Mosquitto.
 
 # Usage
 
@@ -16,3 +15,4 @@ This image also contains:
 - Mosquito which is licensed under the `EPL/EDL` license.
 
 However, this image might also contain other software(parts) which may be under other licenses (such as OpenSSL or other dependencies). Some licenses are automatically collected and exported to the /licenses folder within the container. It is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
+
